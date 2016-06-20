@@ -1,6 +1,6 @@
-# AndSes4Ass3
+# AndSes4Ass4
 Main Activity.java
-package me.rk.andses4ass3;
+package me.rk.andses4ass4;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -172,8 +172,8 @@ grid_view_layout.xml
 </LinearLayout>
 
 custom_list_layout.xml
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/darker_gray">
@@ -190,8 +190,9 @@ custom_list_layout.xml
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="19sp"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageView"
         android:textColor="#000000"
+        android:padding="10dp"
         android:text="Image1"/>
 
-</LinearLayout>
+</RelativeLayout>
